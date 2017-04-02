@@ -1,0 +1,30 @@
+run the project by command :  python manage.py runserver
+
+on the browser or RESTClient type the url: http://127.0.0.1:8000/products/
+its return all the product details in JSON format
+
+To get the Product Details by product id
+type url: http://127.0.0.1:8000/products/product_id   i.e products/2
+
+To post the data through POST method
+put JSON data in content AND Media type is application/json
+then click post button
+
+If post the data through restClient then
+put json data in body,
+set headers as "Content-Type:application/json"
+and select Method as POST then send the request
+
+Now to check the data through command line:
+	Then quit the server
+	to get product details by id:
+	type in command prompt "python manage.py getproduct product_id"
+ 	i.e python manage.py getproduct 3
+
+ 	to get all product:
+ 	type in command Promt "python manage.py allproduct"
+
+ admin credential :
+ user name: kuldeep
+ password: admin
+
