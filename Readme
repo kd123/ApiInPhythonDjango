@@ -22,7 +22,7 @@ Now to check the data through command line:
  	i.e python manage.py getproduct 3
 
  	to get all product:
- 	type in command Promt "python manage.py allproduct"
+ 	type in command Prompt "python manage.py allproduct"
 
  admin credential :
  user name: kuldeep
